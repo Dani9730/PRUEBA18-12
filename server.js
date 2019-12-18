@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 
-
 const hbs = require('hbs');
 require('./hbs/helpers');
 
