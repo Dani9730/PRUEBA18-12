@@ -3,8 +3,7 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 
-const ubicacion = require('./controlador/ubicacion');
-const clima = require('./controlador/clima');
+
 
 const hbs = require('hbs');
 require('./hbs/helpers');
